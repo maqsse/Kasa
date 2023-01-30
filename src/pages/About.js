@@ -1,12 +1,16 @@
 import { React } from "react";
-import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import "../styles/header.css"
+import "../styles/footer.css"
 
 const About = () => {
 
   return (
   <div>
-    <Navigation/>
+    <Header/>
       <h1>A propos</h1>  
+      <Footer/>
     </div> 
   ); 
 };

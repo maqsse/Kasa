@@ -1,7 +1,8 @@
-import './App.css';
+import './styles/App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
+import Error from './pages/Error';
 
 
 
@@ -9,9 +10,10 @@ function App() {
   return <BrowserRouter>
   <Routes>
 <Route path="/" element={<Home />} />
+<Route path="/home" element={<Home />} />
 <Route path="/about" element={<About />} />
 {/*En cas d'erreur de déclaration de page */}
-<Route path="*" element={<Home />} />
+<Route path="*" element={<Error />} />
  </Routes>
   </BrowserRouter>
 }
