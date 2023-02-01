@@ -1,17 +1,20 @@
 import React from 'react'
-import Footer from '../components/Footer'
 import Header from '../components/Header'
 import "../styles/header.css"
 import "../styles/error.css"
-import "../styles/footer.css"
+import { NavLink } from 'react-router-dom';
+
 
 const Error = () => {
   return (
     
     <div>
       <Header/>
-      <h1 className='error'>Oup's la page que vous demandez n'existe pas !</h1>
-      <Footer/>
+      <div className='containererror'>
+      <p className='error404'>404</p>
+      <p className='error'>Oup's la page que vous demandez n'existe pas.</p>
+      <NavLink to={'/Home'} className='navhome'>Retourner sur la page d'accueil</NavLink>
+      </div>
     </div>
   )
 }

@@ -1,0 +1,28 @@
+
+  h1{
+    color: blue;
+    position: absolute;
+    font-size: inherit;
+    font-weight: inherit;
+    color: white;
+    font-family:Montserrat, sans-serif;
+font-size: 48px;
+    
+  }
+  .blocbanner{
+    position: relative;
+    display: flex;
+    border-radius: 25px;
+    font-size: 48px;
+    justify-content: center;
+    margin: 0 0 40px;
+    align-items: center;
+    height: 225px;
+    
+  }
+  .banner{
+    border-radius: 25px;
+    filter: brightness(0.7);
+    width: 85%;
+  }
+  

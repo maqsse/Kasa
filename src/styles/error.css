@@ -1,4 +1,29 @@
+.containererror{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.error404{
+  color: #ff6060;
+  font-size: 288px;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin: 80px 0 0;
+  
+}
 .error{
   color: #ff6060;
-  font-size: 64px;
+  font-size: 36px;
+  margin-bottom: 80px;
+  line-height: 50px;
+}
+.navhome{
+  color: #ff6060;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Montserrat;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 50px;
 }

@@ -1,18 +1,18 @@
-import { React } from "react";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import "../styles/header.css"
-import "../styles/footer.css"
+import { React } from 'react'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
+import '../styles/header.css'
+import '../styles/footer.css'
+import Bannerabout from '../components/Bannerabout'
 
 const About = () => {
-
   return (
-  <div>
-    <Header/>
-      <h1>A propos</h1>  
-      <Footer/>
-    </div> 
-  ); 
-};
+    <div>
+      <Header />
+       <Bannerabout/>
+      <Footer />
+    </div>
+  )
+}
 
-export default About; 
+export default About

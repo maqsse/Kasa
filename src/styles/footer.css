@@ -5,7 +5,7 @@ footer{
   align-items: center;
   flex-direction: column;
   justify-content: end;
-}
+  }
 .copyright{
   color: white;
   font-size: 24px;

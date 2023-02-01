@@ -1,0 +1,59 @@
+.cards {
+  display: flex;
+  position: relative;
+  width: 337px;
+  height: 340px;
+  background: #ff6060;
+  border-radius: 25px;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  margin: 10px;
+}
+
+.cards img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cards .link {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: flex-end;
+  height: 340px;
+  width: 100%;
+  padding: 20px 20px 15px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.cards p {
+  margin: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 16px;
+  background: -webkit-linear-gradient(256deg,hsla(0,0%,100%,0),rgba(0,0,0,.5)) ;
+  height: 140px;
+  position: absolute;
+  top: 85%;
+  padding-left: 5%;
+  overflow: hidden;
+  
+}
+.main{
+  display: flex;
+  background-color: #f7f7f7;
+  border-radius: 25px;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px 30px;
+  margin: 40px;
+}
