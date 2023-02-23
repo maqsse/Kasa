@@ -10,7 +10,7 @@ import Bannerhome from '../components/Bannerhome'
 import Card from '../components/Card'
 import { useState, useEffect } from 'react'
 
-
+ 
 
 const Home = () => {
   const [error, setError] = useState(false)
@@ -34,7 +34,7 @@ const Home = () => {
     return <span> Oups il y a eu un problème </span>
   }
   
-  return (
+  return ( 
     <div>
       <Header />
       <Bannerhome />

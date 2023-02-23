@@ -6,7 +6,7 @@
 }
 .error404{
   color: #ff6060;
-  font-size: 288px;
+  font-size: 260px;
   font-family: Montserrat;
   font-weight: 700;
   margin: 80px 0 0;
@@ -14,10 +14,12 @@
 }
 .error{
   color: #ff6060;
-  font-size: 36px;
-  margin-bottom: 80px;
-  line-height: 50px;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    font-family: Montserrat,Arial,sans-serif;
 }
+
 .navhome{
   color: #ff6060;
   font-size: 18px;
@@ -26,4 +28,20 @@
   text-decoration: underline;
   text-align: center;
   margin-bottom: 50px;
+}
+
+
+@media (max-width: 768px){
+.error404{
+  font-size: 96px;
+}
+.error{
+  font-size: 18px;
+  text-align: center;
+}
+.navhome{
+  line-height: 25px;
+  font-size: 14px;
+}
+
 }

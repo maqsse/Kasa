@@ -6,7 +6,7 @@ const Card = (props) => {
   return (
     <div className='cards'>
       <img src={props.src} alt={props.text}></img>
-      <NavLink className="link" to={"/accommodation/"+props.id} draggable="false">
+      <NavLink className="link" to={"/Logements/"+props.id} draggable="false">
       <p>{props.text}</p>
       </NavLink>
     </div>

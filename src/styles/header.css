@@ -24,3 +24,48 @@ a{
   text-decoration: underline;
   color: #ff6060;
 }
+
+@media (max-width : 768px){
+  
+
+header{
+  width: 95%;
+  padding: 15px 150px 20px 100px;
+}
+.navigation{
+  display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+  .logoheader{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 5%;
+    right: 56%;
+    top: 5%;
+    bottom: 0%
+     }
+
+ul{
+  display: flex;
+  width: 100%;
+}
+a{
+  font-size: 12px;
+  margin-left: 0px;
+  padding-left: 10px;
+}
+#firstLinkNav{
+  padding-left: 15px;
+}
+li{
+  text-transform: uppercase;
+  padding: 0.2rem 0.1rem;
+ 
+}
+  
+}
+
+  

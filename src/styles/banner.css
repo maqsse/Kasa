@@ -23,6 +23,34 @@ font-size: 48px;
   .banner{
     border-radius: 25px;
     filter: brightness(0.7);
-    width: 85%;
+    width: 87%;
   }
+  
+  @media (max-width: 768px){
+  .blocbanner{
+      
+      width: 87%;
+      height: 110px;
+      left: 20px;
+      
+      
+  }
+  h1{
+    font-size: 24px;
+    
+    line-height: 24px;
+    left: 15px;
+  }
+  .banner{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+  }
+  img{
+    width: 7rem;
+  }
+  #imgAbout{
+    height: 150px;
+  }
+}
   

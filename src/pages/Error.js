@@ -12,7 +12,7 @@ const Error = () => {
       <Header/>
       <div className='containererror'>
       <p className='error404'>404</p>
-      <p className='error'>Oup's la page que vous demandez n'existe pas.</p>
+      <p className='error'>Oup's! La page que vous demandez n'existe pas.</p>
       <NavLink to={'/Home'} className='navhome'>Retourner sur la page d'accueil</NavLink>
       </div>
     </div>
