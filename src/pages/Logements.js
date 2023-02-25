@@ -33,7 +33,7 @@ const Logements = () => {
   }, [])
 
   if (error) {
-    <h1> Oups !! Une erreur est survenue </h1>
+  return <h1> Oups !! Une erreur est survenue </h1>
   }
 
   const logement = locationList.find((location) =>
