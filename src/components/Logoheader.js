@@ -1,9 +1,10 @@
 import React from 'react'
+import Logo from '../Logo.png'
 
 const Logoheader = () => {
   return (
     <div className="logoheader">
-      <img src="../Logo.png" alt="logo kasa header" />
+      <img src={Logo} alt="logo kasa header" />
     </div>
   )
 }
