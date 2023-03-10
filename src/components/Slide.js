@@ -31,7 +31,7 @@ const Slide = ({pictures}) => {
       {pictures.length > 1 ? <button id='precedent' onClick={() => setPhotoSuivante(false)}> <i className='fa-solid fa-3x fa-angle-left' /> </button> : ''}
       <img id='imgLogement' src={pictures?.[0]} alt='logement' />
       {pictures.length > 1 ? <button id='suivant' onClick={() => setPhotoSuivante(true)}> <i className='fa-solid fa-3x fa-angle-right' /> </button> : ''}
-      <p id='nbLogement'> {(photoCourante + 1) + '/' + pictures.length} </p>
+      <p id='nbLogement'> {pictures.length > 1 ? (photoCourante + 1) + '/' + pictures.length : ''} </p>
       
       
       
